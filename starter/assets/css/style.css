@@ -21,7 +21,7 @@ h1 {
     font-size: 48px;
 }
 
-/* Changed this to another colour so that it stood out as the previo9us colour was too close to the rest of the h1 colour */
+/* Changed this to another colour so that it stood out as the previous colour was too close to the rest of the h1 colour. I assumed this is what they wanted to happen */
 .seo {
     color: #ede214;
 }
