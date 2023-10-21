@@ -14,7 +14,7 @@ Additionally:
 * CSS code was consolidated
 
 \
-![screenshot of clients website](./starter/assets/images/image.png)
+![screenshot of clients website](./assets/images/image.png)
 
 
 
