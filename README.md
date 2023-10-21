@@ -20,7 +20,7 @@ Additionally:
 
 ## Installation
 
-Please use the following link to access the website: 
+Please use the following link to access the website: https://e-davies.github.io/marketing-agency-needs-accessibility-standards-codebase/
 
 ## Usage
 
