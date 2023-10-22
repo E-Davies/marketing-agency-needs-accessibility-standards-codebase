@@ -67,7 +67,7 @@ main {
 }
 
 /* This selects all the marketing sections and provides them with the same styling - blue boxes and sizing*/
-.marketing-sections{
+.marketing-sections {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -106,7 +106,7 @@ aside {
     background-color: #2589bd;
 }
 
-aside section{
+aside section {
     margin-bottom: 32px;
 }
 
