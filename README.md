@@ -1,4 +1,4 @@
-# Marketing Agency Needed Accessibility Standards Codebase
+# Marketing agency needs a website that meets accessibility standards
 
 ## Description
 
