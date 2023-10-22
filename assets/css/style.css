@@ -10,19 +10,20 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
 }
 
-h1 {
+/* This selects only the h1 in the header element*/
+header > h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* Changed this to another colour so that it stood out as the previous colour was too close to the rest of the h1 colour. I assumed this is what they wanted to happen */
-.seo {
+span {
     color: #ede214;
 }
 
@@ -34,7 +35,8 @@ nav {
     font-size: 20px;
 }
 
-ul {
+/* This selects the ul in the nav */
+nav ul {
     list-style-type: none;
 }
 
@@ -47,8 +49,8 @@ a {
     text-decoration: none;
 }
 
-/* contains hero image seen below the nav bar */
-.hero {
+/* contains hero image seen below the nav bar and provides is sizing and position*/
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -57,10 +59,20 @@ a {
     background-position: center;
 }
 
-.content {
+
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+/* This selects all the marketing sections and provides them with the same styling - blue boxes and sizing*/
+.marketing-sections{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
 }
 
 /* added the img size to the float left and float right instead of if being specified 3 times for each img */
@@ -76,37 +88,14 @@ a {
     max-height: 200px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-}
-
 /* changed this to h2 so to ensure DRY code */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.benefits {
+/* This selector provides styling to the content to the right of the marketing section*/
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -117,41 +106,31 @@ h2 {
     background-color: #2589bd;
 }
 
+aside section{
+    margin-bottom: 32px;
+}
+
 /* Added this in so that all the h3 elements under benefits are styled the same without having 3x repeating code - DRY code*/
-.benefits h3 {
+aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* Added this in so that all the imgs elements under benefits are styled the same without having 3x repeating code - DRY code*/
-.benefits img {
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-}
-
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;  
 }
 
-.footer h3 {
-    color: black;
+/* This selects all child elements in the footer and makes the text black */
+footer * {
+    color: black
 }
- .footer p{
-    color: black; 
- }
